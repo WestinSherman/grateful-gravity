@@ -10,16 +10,90 @@ image:
 tags: ["astro", "blogging", "learning in public"]
 ---
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to  _Markev's page_ about learning Astro! Here, I will share my learning journey as I build a new website.
+# Markev Mithy
 
-## What I've accomplished
+#### My inventory:
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+- [ ]wristWatch TL/12-Cr200: 
+      Computer/1 + holodisplay + 500kms comms-Cr400 + Total: Cr1100.
+- [ ]portableComputer/3 TL/11-Cr300: 500kms comms-Cr400. Total: Cr700.
+- [ ]DDR(Data -Display) / (CommDot)TL/13-Cr500.
+- [ ]Agent/0 TL/11-Cr500.
+- [ ]Diplo Vest TL/8-Cr250.
+- [ ]Accelerator TL/9-Cr900.
+- [ ]Snub Pistol TL/8-Cr150.
+- [ ]Cloth TL/12-Cr750.
+- [ ]Expandable Shield TL/12: +2500.
+- [ ]Expandable Shield TL/12: +2500.
+Total Cr: 5950 + 3600 = 9,550.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+#### Bought at StarPort:
 
-## What's next
+- [ ]Translator TL/10 - Cr500.
+- [ ]Snub ammo: 6 rounds per Mag.
+     720 rounds + QuikLoadr + 2 mags: - Cr500, 3 mags - Cr30
+- [ ]Accelerator ammo: 330 rounds - Cr600 + 2 mags + QuikLoadr
+- [ ]Software:
+- [ ]Intellect TL/12 - Cr2000.
+- [ ]Intelligent Interface TL/11 - Cr100.
+- [ ]Expert Skill Packages:
+- [ ]Tactics - Cr100
+- [ ]Electronics - Cr100
+- [ ]Survival - Cr200
+- [ ]Mechanic - Cr200?
+- [ ]Admin - Cr100
+Total: Cr4430.
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+#### Wants:
+
+![METABOLIC-ACCELERATOR](Images/METABOLIC-ACCELERATOR.png)
+
+
+**Pre-career:**
+1. athletic : 1
+2. VACC suit: 1
+3. tactics: 3
+4. heavy weapons: 1
+5. gun combat: 3
+6. stealth: 2
+7. Robotics: 1
+8. Melee Blade: +1.
+8. Carousel: 1
+9. Survival: 1
+10. Recon: 1
+
+
+**Life Before:**
+**F**irstTerm:
+Failed my advancement roll for Captain.
+1. SecondTerm Marine
+   Tactics + 1.
+2. ThirdTerm: 
+   On the front lines of a planetary assault for the second time.
+3. Advanced training: 
+   Robotics: 1
+
+
+   **Characteristics:**
+1. Strength: 9.
+2. Dexterity: 9.
+3. Endurance: 11.
+4. Intellect: 11.
+5. Education: 6.
+6. Social Standing: 10.
+
+
+**Career:**
+Ground assault lieutenant officer.
+Marine Rank 3 force commander.
+
+
+#### Life-Event:
+Had a girlfriend with Sheldon’s cousin. She was a druggy but is clean. Now just friends.
+Sheldon and I are still good friends. End of bad relationship/ rival or enemy.
+
+
+#### What I look like:
+![Markev Mithy](Images/Markev-lazyfit.webp)
