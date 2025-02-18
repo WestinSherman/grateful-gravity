@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-title: My Third Blog Post
+layout: ../../layouts/MarkdownseshLayout.astro
+title: Sesh-3
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"
 image:
@@ -12,4 +12,4 @@ tags: ["astro", "learning in public", "setbacks", "community"]
 
 #### Kevin the Drone
 
-![KevinModel#1](Images/Kevin.png)
+![KevinModel#1](Images/Kevin.png)`

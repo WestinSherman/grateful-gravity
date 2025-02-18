@@ -94,3 +94,7 @@ html.dark {
 .dark .nav-links a {
     color: #fff;
 }
+
+a {
+    color: #000;
+}

@@ -1,8 +1,8 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
+layout: ../../layouts/MarkdownseshLayout.astro
+title: 'Sesh-1'
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
+description: 'This is the first sesh of my new Astro blog.'
 author: 'Astro Learner'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
