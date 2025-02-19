@@ -1,64 +1,8 @@
 ---
-import Hamburger from "../components/Hamburger.astro";
-import Navigation from "../components/Navigation.astro";
-import ThemeIcon from "../components/ThemeIcon.astro";
-import Social from "../components/Social.astro";
-import "../styles/global.css";
-const { pageTitle } = Astro.props;
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "StarMetal Archives";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-		<style>
-			footer {
-				display: flex;
-				gap: 1rem;
-				margin-top: 2rem;
-			}
-			body {
-				background-image: url("Images/wallpaper.jpg");
-				min-height: 100vh;
-				min-width: 206vh;
-				margin: 0;
-				display: grid;
-				grid-template-rows: auto 1fr auto;
-			}
-
-			header {
-				min-height: 50px;
-				/*background: lightcyan;*/
-			}
-
-			footer {
-				min-height: 50px;
-				/*background: PapayaWhip;*/
-			}
-		</style>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<Hamburger />
-				<ThemeIcon />
-				<Navigation />
-			</nav>
-		</header>
-		<h1>{pageTitle}</h1>
-		<slot />
-
-		<footer>
-			<Social platform="twitter" username="astrodotbuild" />
-			<Social platform="github" username="withastro" />
-			<Social platform="youtube" username="astrodotbuild" />
-		</footer>
-
-		<script>
-			import "../scripts/menu.js";
-		</script>
-	</body>
-</html>
+<BaseLayout pageTitle="{pageTitle}">
+	<main class="Main"></main>
+</BaseLayout>
