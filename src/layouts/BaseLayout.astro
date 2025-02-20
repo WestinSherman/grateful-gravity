@@ -1,8 +1,7 @@
 ---
-import Header from "../components/Header.astro";
+import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
-const { pageTitle } = Astro.props;
 ---
 
 <!doctype html>
@@ -10,12 +9,14 @@ const { pageTitle } = Astro.props;
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>FG</title>
+        <title>Test</title>
     </head>
-
-    <body class="d-flex flex-column vh-100">
-        <Header />
-        <slot />
+    <body>
+        <Navigation />
+        <main class="content">
+            <p>Main content goes here...</p>
+            <slot />
+        </main>
         <Footer />
     </body>
 </html>

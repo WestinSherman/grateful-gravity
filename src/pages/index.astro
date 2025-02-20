@@ -1,8 +1,22 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "StarMetal Archives";
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/index.css";
 ---
 
-<BaseLayout pageTitle="{pageTitle}">
-	<main class="Main"></main>
-</BaseLayout>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Test</title>
+    </head>
+    <body>
+        <Navigation />
+        <main class="content">
+            <p>Main content goes here...</p>
+            <slot />
+        </main>
+        <Footer />
+    </body>
+</html>
