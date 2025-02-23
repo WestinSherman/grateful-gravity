@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownseshLayout.astro
-title: 'Sesh-1'
+title: Markev-Mithy
 pubDate: 2022-07-01
 description: 'This is the first sesh of my new Astro blog.'
 author: 'Astro Learner'

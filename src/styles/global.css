@@ -8,7 +8,7 @@ body {
     /* Ensure full height */
 }
 
-/* Navbar styles */
+/* NAVBAR START!!! */
 .navbar {
     position: fixed;
     top: 0;
@@ -42,6 +42,9 @@ body {
     float: left;
 }
 
+/*NAVBAR END!!!*/
+
+
 /* Content should expand to push footer down */
 .content {
     flex: 1;
@@ -54,4 +57,10 @@ body {
     color: white;
     text-align: center;
     padding: 0;
+}
+
+/*MARKDOWN START!!!*/
+.markdown-content img {
+    width: 250px;
+    height: 250px;
 }

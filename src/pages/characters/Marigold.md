@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownseshLayout.astro
-title: Sesh-2
+title: Marigold
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:
