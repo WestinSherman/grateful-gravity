@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import StarMetalsesh from "../components/StarMetalcharacters.astro";
 const allcharacters = Object.values(
-    import.meta.glob("./characters/*.md", { eager: true }),
+    import.meta.glob("./characters/*.mdx", { eager: true }),
 );
 const pageTitle = "StarMetal Characters";
 ---

@@ -9,6 +9,9 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
+import { Image } from 'astro:assets';
+import _METABOLICACCELERATOR from './assets/_METABOLICACCELERATOR.png';
+import _MarkevLazyfit from './assets/_MarkevLazyfit.webp';
 
 Welcome to  _Markev's page_ about learning Astro! Here, I will share my learning journey as I build a new website.
 # Markev Mithy
@@ -48,8 +51,8 @@ Total: Cr4430.
 
 #### Wants:
 
-![METABOLIC-ACCELERATOR](Images/_METABOLIC-ACCELERATOR.png)
-
+{/*![METABOLIC-ACCELERATOR](Images/_METABOLIC-ACCELERATOR.png)*/}
+<Image src={_METABOLICACCELERATOR} alt="METABOLIC-ACCELERATOR" height="300" width="350" />
 
 **Pre-career:**
 1. athletic : 1
@@ -96,4 +99,5 @@ Sheldon and I are still good friends. End of bad relationship/ rival or enemy.
 
 
 #### What I look like:
-![Markev Mithy](Images/_Markev-lazyfit.webp)
+{/*![Markev Mithy](Images/_Markev-lazyfit.webp)*/}
+<Image src={_MarkevLazyfit} alt="Markev Mithy" height="300" width="300"/>

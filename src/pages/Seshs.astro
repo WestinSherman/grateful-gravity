@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import StarMetalsesh from "../components/StarMetalsesh.astro";
 const allseshs = Object.values(
-    import.meta.glob("./seshs/*.md", { eager: true }),
+    import.meta.glob("./seshs/*.mdx", { eager: true }),
 );
 const pageTitle = "StarMetal Sessions";
 ---
