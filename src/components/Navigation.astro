@@ -1,3 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+interface Session {
+    url: string;
+    frontmatter: {
+        title: string;
+    };
+}
+
+const allseshs: Session[] = Object.values(
+    import.meta.glob<{ url: string; frontmatter: { title: string } }>(
+        "./seshs/*.mdx",
+        { eager: true },
+    ),
+);
+const pageTitle = "StarMetal Sessions";
+---
+
 <nav class="navbar">
     <ul>
         <li><a href="/">Home</a></li>
